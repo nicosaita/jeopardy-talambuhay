@@ -1,7 +1,7 @@
 import type { PlayerData, Question } from '$lib/index';
 
 const playerData: PlayerData[] = [];
-const TIME_LEFT = 8; // seconds
+const TIME_LEFT = 15; // seconds
 const sortQuestions = (questions: { points: number; question: string; answer: string; imgSrc?: string; }[]) => questions.sort((a, b) => a.points - b.points).map(q => ({ ...q, answered: false, buzzers: [] as string[] }));
 const pastQuestions: Question[] = sortQuestions([
     {
@@ -14,7 +14,6 @@ const pastQuestions: Question[] = sortQuestions([
         points: 200,
         question:
             'What was my favorite flavor of ice cream in middle school?',
-        imgSrc: "/strawberry.png",
         answer: 'Strawberry',
     },
     {
@@ -60,14 +59,32 @@ const presentQuestions: Question[] =
             answer: 'Back to the Future',
         }
     ]);
-const futureQuestions: Question[] = sortQuestions([
-    {
+const randomQuestions: Question[] = sortQuestions([
+     {
         points: 100,
         question:
-            'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
+            'What is my favorite season?',
+        answer: 'Fall',
+    },
+    {
+        points: 200,
+        question:
+            'What is my favorite color?',
         imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: 'Isometric',
+            "/color.png",
+        answer: 'Green',
+    },
+    {
+        points: 300,
+        question:
+            'What is my favorite food?',
+        answer: 'Sushi',
+    },
+    {
+        points: 5000,
+        question:
+            'What is my Chipotle order?',
+        answer: 'Burrito bowl with white rice, black beans, chicken, tomato salsa, guacamole, and cheese.',
     }
 ]);
 
@@ -82,8 +99,8 @@ const categories = [
         questions: presentQuestions
     },
     {
-        title: "Nico's Future",
-        questions: futureQuestions
+        title: "Random Questions",
+        questions: randomQuestions
     }
 ];
 
