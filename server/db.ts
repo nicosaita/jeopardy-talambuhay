@@ -1,7 +1,7 @@
 import type { PlayerData, Question } from '$lib/index';
 
 const playerData: PlayerData[] = [];
-const TIME_LEFT = 15; // seconds
+const TIME_LEFT = 8; // seconds
 const sortQuestions = (questions: { points: number; question: string; answer: string; imgSrc?: string; }[]) => questions.sort((a, b) => a.points - b.points).map(q => ({ ...q, answered: false, buzzers: [] as string[] }));
 const pastQuestions: Question[] = sortQuestions([
     {
