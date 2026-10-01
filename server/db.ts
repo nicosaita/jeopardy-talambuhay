@@ -25,9 +25,8 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'What elementary school did I go to?',
-        imgSrc: "/siwanoy.png",
-        answer: 'Siwanoy',
+        question: 'What grade did I come into Horace Mann?',
+        answer: '6th',
     }
 ]);
 
@@ -37,7 +36,7 @@ const presentQuestions: Question[] =
             points: 400,
             question:
                 'What breed is my dog?',
-            imgSrc: '/',
+            imgSrc: '/dog.png',
             answer: 'Labradoodle',
         },
         {
