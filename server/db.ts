@@ -17,13 +17,13 @@ const pastQuestions: Question[] = sortQuestions([
         answer: 'Strawberry',
     },
     {
-        points: 300,
+        points: 450,
         question:
             'What did I eat for breakfast today?',
         answer: 'Nothing',
     },
     {
-        points: 400,
+        points: 300,
         question: 'What grade did I come into Horace Mann?',
         answer: '6th',
     }
@@ -39,14 +39,14 @@ const presentQuestions: Question[] =
             answer: 'Labradoodle',
         },
         {
-            points: 100,
+            points: 50,
             question:
                 'What is my favorite candy?',
             imgSrc: '/m&m.png',
             answer: 'M&Ms',
         },
         {
-            points: 200,
+            points: 100,
             question: 'What grade am I in?',
             answer: '11th',
         },
