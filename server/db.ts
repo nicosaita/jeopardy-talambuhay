@@ -84,6 +84,8 @@ const randomQuestions: Question[] = sortQuestions([
         points: 5000,
         question:
             'What is my Chipotle order?',
+        imgSrc:
+            "/chipotle.png",
         answer: 'Burrito bowl with white rice, black beans, chicken, tomato salsa, guacamole, and cheese.',
     }
 ]);
