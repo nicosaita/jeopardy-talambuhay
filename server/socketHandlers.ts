@@ -51,7 +51,7 @@ const addSocketHandlers = (io: Server) => {
 
             // start the timer for the question
             if (question) {
-                state.timeLeft = 16;
+                state.timeLeft = 8;
                 startTimer(io);
             } else if (state.categories.every((category) => category.questions.every((q) => q.answered))) {
                 io.emit('gameOver');
