@@ -163,7 +163,7 @@
 		--theme-color: #79addc;
 		--point-color: #ffc090;
 		font-family: 'ITC_ Korinna', sans-serif;
-		background-color:black;
+		background-color:#0096c7;
 	}
 
 	:global(input) {

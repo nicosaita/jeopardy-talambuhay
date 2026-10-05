@@ -20,7 +20,7 @@
     .box {
         width: 30px;
         height: 30px;
-        border: 2px solid grey;
+        border: 2px solid #51f071;
     }
 	
 </style>
