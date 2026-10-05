@@ -76,7 +76,7 @@
 				console.log(`${playerName} buzzed in!`);
 				buzzed = true;
 				if (playerName === name) {
-					setTimer(5); // start timer only for the player who buzzed in
+					setTimer(10); // start timer only for the player who buzzed in
 				}
 			} else {
 				console.log('reset buzzer');
