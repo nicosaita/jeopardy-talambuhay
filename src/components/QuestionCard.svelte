@@ -220,7 +220,7 @@
 
 	.modal-content {
 		background: var(--theme-color);
-		color: white;
+		color: #ffee93;
 		padding: 2rem;
 		border-radius: 10px;
 		max-width: 800px;

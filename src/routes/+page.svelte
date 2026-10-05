@@ -160,8 +160,8 @@
 	@import url('https://fonts.cdnfonts.com/css/itc-korinna-std');
 
 	:root {
-		--theme-color: #060ce9;
-		--point-color: goldenrod;
+		--theme-color: #79addc;
+		--point-color: #ffc090;
 		font-family: 'ITC_ Korinna', sans-serif;
 		background-color:black;
 	}

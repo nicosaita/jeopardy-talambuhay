@@ -11,7 +11,7 @@
 
 <style>
     .red {
-        background-color: red;  
+        background-color: #adf7bc;  
     }
 	.time-widget {
         display: flex;
